@@ -1,0 +1,5 @@
+-keep class com.tom_roush.pdfbox.** { *; }
+-keep class org.tensorflow.lite.** { *; }
+-dontwarn org.apache.commons.logging.**
+-dontwarn javax.naming.**
+-dontwarn java.awt.**
